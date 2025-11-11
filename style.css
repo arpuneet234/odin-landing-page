@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+
+    font-family: 'roboto',sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    
+}
+.section-1{
+    background-color: #1F2937;
+    color: aliceblue;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 10px;
+    justify-content: space-between;
+    
+}
+.header{
+     
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.section-2 img{
+    width: 120px;
+    height: 120px;
+    padding : 10px;
+}
+.section-2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    
+}
+.card{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card p{
+    text-align: center;
+    margin-top:0;
+    
+    
+}
+.section-3{
+    background-color:#E5E7EB;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+}
+.cards{
+    display:flex;
+}
+.quote{
+    display :flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.quote p{
+    margin:6px;
+    
+    
+}
+.author{
+    align-self: flex-end;
+  font-weight: bold;
+}
+
+.section-4{
+   
+    display: flex;
+    background-color:  rgb(58, 96, 172);
+    justify-content: space-between;
+    padding:20px;
+    width:500px;
+    margin: 40px auto; 
+    color: aliceblue;
+    align-items: center;
+    gap:50px;
+    border-radius: 6px;
+    height: 50px;
+
+   
+    
+}
+
+
+.section-4 button{
+    background-color:  rgb(171, 171, 223);
+}
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 20px 20px; /* Add padding to create height */
+    margin-top: auto; /* If using flex column layout */
+}
+
+.footer p {
+    color: aliceblue;
+    margin: 0; /* Remove default paragraph margins */
+}
+
+button{
+    
+    background-color: rgb(32, 111, 32);
+    color:#E5E7EB;
+    width: 100px;
+    height: 38px;
+  border-radius: 6px;        /* Space inside */
+                    /* Remove default border */
+           /* Rounded corners */
+  
+    font-weight: bold;
+    cursor: pointer;
+}
